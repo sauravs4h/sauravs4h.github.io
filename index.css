@@ -4,19 +4,19 @@
     
     height: 90px;
 }
-#navleft{
+/* #navleft{
     display: flex;
     justify-content: space-around;
     
     align-items: center;
     margin-left: 50px;
     width:18%
-}
+} */
 
 #navright{
     display: flex;
-    justify-content: space-between;
    
+   justify-content: space-between;
     align-items: center;
     margin-right: 50px;
     width:40%;
@@ -36,6 +36,82 @@
 }
 
 #homeheroimg{
-    position: absolute;
-    opacity: 0.5;
+    width: 100%;
 }
+
+#aboutme{
+    /* border: 1px solid red; */
+    /* font-size: larger; */
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    
+}
+#aboutme>p{
+    font-size: larger;
+}
+
+#know-skill{
+    display: flex;
+    justify-content: space-around;
+}
+#know-skill>div{
+    width: 40%;
+}
+
+.hsmall{
+    font-size:27px;
+}
+.bigp{
+    font-size: large;
+    line-height: 1.5em;
+}
+#knowmecontect{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(53,253,211);
+    color: rgb(63,93,153);
+    font-size: medium;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#cardcontainer{
+    display: grid;
+    grid-template-columns: repeat(4, 130px);
+    gap: 10px;
+    
+
+}
+#cardcontainer>div>img{
+    width: 45%;
+}
+#cardcontainer>div{
+    /* border: 1px solid red; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+
+ /* .skilldiv>div{
+
+    
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+     width: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+  
+     
+ }  */
