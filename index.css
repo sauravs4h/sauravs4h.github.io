@@ -1,39 +1,49 @@
 body{
     margin: 0px;
     padding: 0px;
+    height: 3000px;
 }
 
 #navbar{
     display: flex;
     justify-content: space-between;
-    
-    height: 90px;
+    /* border: 1px solid red; */
+    height: 70px;
+  
 }
-/* #navleft{
-    display: flex;
-    justify-content: space-around;
-    
-    align-items: center;
-    margin-left: 50px;
-    width:18%
-} */
+
 
 #navright{
     display: flex;
-   
+   /* border: 1px solid red; */
    justify-content: space-between;
     align-items: center;
     margin-right: 50px;
     width:40%;
-    
+    font-size: large;
     
 }
 
 #navimg{
-    width: 50px;
-  height: 50px;
-  border-radius: 50%;
+   
+  height: 100%;
+  
 }
+#resume{
+    display: flex;
+    width: auto;
+    margin: 10px 0px 10px 0px;
+    /* height: 90%; */
+    /* padding: 5px; */
+    /* border: 3px solid rgb(53,253,211); */
+    text-align: center;
+    color: rgb(63,93,153);
+ }
+
+ .downloadicon{
+    /* border: 1px solid black; */
+    padding-top: 24%;
+ }
 
 #homehero{
    
@@ -139,16 +149,61 @@ body{
  }
  #project>div{
     display: flex;
-    justify-content: space-around;
+    gap: 10px;
+   padding: 10px;
+    justify-content: space-between;
+    border: 2px solid rgb(63,93,153);
+    width: 97%;
+    margin: auto;
+    margin-top: 5%;
  }
  .project-image{
     width: 40%;
-    border: 1px solid black;
+    /* border: 1px solid red; */
+    margin-left: 3%;
  }
  .project-image>img{
     width: 100%;
  }
  .project-info{
     text-align: justify;
+    width: 60%;
+    margin-right: 3%;
+ }
+
+
+ 
+
+
+ .project-info{
+   font-size: large;
+    /* border: 1px solid red; */
     width: 50%;
+ }
+ .subhead{
+    /* font-size: large; */
+    font-weight: bold;
+ }
+ .btn-div{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+ }
+
+ .p-button{
+    /* width: auto;
+    height: 40px;
+    
+    background-color: aqua;
+    font-size: medium; */
+
+    height: 50px;
+    width: auto;
+    background-color: rgb(53,253,211);
+    color: rgb(63,93,153);
+    font-size:large;
+    font-weight: 530;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  }
