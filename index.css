@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     height: 3000px;
+    
 }
 
 #navbar{
@@ -9,7 +10,17 @@ body{
     justify-content: space-between;
     /* border: 1px solid red; */
     height: 70px;
-  
+    overflow: hidden;
+    background-color: white;
+    position:-ms-page;
+
+   
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
 }
 
 
@@ -21,7 +32,10 @@ body{
     margin-right: 50px;
     width:40%;
     font-size: large;
-    
+   
+}
+#navright>a{
+    text-decoration: none;
 }
 
 #navimg{
@@ -46,7 +60,7 @@ body{
  }
 
 #homehero{
-   
+   margin-top: 70px;
   
 }
 
@@ -152,10 +166,12 @@ body{
     gap: 10px;
    padding: 10px;
     justify-content: space-between;
-    border: 2px solid rgb(63,93,153);
+    /* border: 2px solid rgb(63,93,153); */
     width: 97%;
     margin: auto;
     margin-top: 5%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    
  }
  .project-image{
     width: 40%;
@@ -188,7 +204,9 @@ body{
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-around;
+    gap: 5%;
     width: 40%;
+    margin: auto;
  }
 
  .p-button{
