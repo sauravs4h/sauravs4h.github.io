@@ -6,14 +6,17 @@ window.onscroll=()=>{
     mayfunction();
 }
 
-var sticky = navbar.offsetTop;
+// var sticky = navbar.offsetTop;
+var sticky = 70;
 
+console.log(sticky)
 
 const mayfunction=()=>{
     if(window.pageYOffset >= sticky){
-        navbar.classList.add("sticky")
+        navbar.classList.add("sticky");
+        document.getElementById("homehero").style.marginTop="70 px"
 
-    }else{
+    }else if(window.pageYOffset < sticky){
         navbar.classList.remove("sticky")
     }
 }

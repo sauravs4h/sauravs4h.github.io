@@ -39,6 +39,7 @@ html{
 }
 #navright>a{
     text-decoration: none;
+    color: black;
 }
 
 #navimg{
@@ -62,8 +63,8 @@ html{
     padding-top: 24%;
  }
 
-#homehero{
-   margin-top: 70px;
+ #homehero{
+   /* margin-top: 70px; */
   
 }
 
