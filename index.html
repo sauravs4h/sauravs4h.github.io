@@ -10,27 +10,31 @@
     <title>Saurav Sharma</title>
   </head>
   <body>
-    <div id="navbar">
-      <div id="navleft">
-        <img id="navimg" src="https://i.ibb.co/g6VQt3j/a-SAURAV-gif-1.gif" alt="saurav">
-        
+   <header id="header" class="header">
+    <img class="headerlogo" src="https://i.ibb.co/g6VQt3j/a-SAURAV-gif-1.gif" alt="">
 
-      </div>
-      <div id="navright">
-        <a href="#homehero"><h4>Home</h4></a>
-        <a href="#aboutme"><h4>About</h4></a>
-        <a href="#skill"><h4>Skills</h4></a>
-        <a href="#projecth1"><h4>Projects</h4></a>
-        <a href=""><h4>Contects</h4></a>
-        <a id="resume" href="downloads/Saurav_Sharma_Resume.pdf" download>
-          <span class="material-symbols-outlined downloadicon">
-            download
-            </span>
-            <h4 >Resume </h4>
-            
-        </a>
-      </div>
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li><a class="navbar-link" href="#homehero"><h4>Home</h4></a></li>
+        <li><a class="navbar-link" href="#aboutme"><h4>About</h4></a></li>
+        <li><a class="navbar-link" href="#skill"><h4>Skills</h4></a></li>
+        <li><a class="navbar-link" href="#projecth1"><h4>Projects</h4></a></li>
+        <li><a class="navbar-link" href=""><h4>Contects</h4></a></li>
+        <li><a class="navbar-link" href="downloads/Saurav_Sharma_Resume.pdf" download><h4> Resume </h4></a></li>
+
+      </ul>
+
+    </nav>
+
+
+    <div class="mobile-navbar-btn">
+      <ion-icon name="menu-outline" class="mobile-nav-icon"> </ion-icon>
+      <ion-icon name="close-outline"class="mobile-nav-icon"></ion-icon>
+      
+
     </div>
+
+   </header>
     <div id="homehero">
       <img id="homeheroimg" src="https://i.ibb.co/kKcSv6N/poster.png" alt="">
       
@@ -144,5 +148,6 @@
     
   </body>
 </html> 
-
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="/index.js"></script>

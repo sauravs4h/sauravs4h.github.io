@@ -1,6 +1,41 @@
 //console.log("hello saurav")
 
-let navbar=document.getElementById("navbar");
+
+
+const mobile_nav=document.querySelector(".mobile-navbar-btn")
+const nav_header=document.querySelector(".header");
+
+
+mobile_nav.onclick=()=>{
+
+    togglenavbar()
+}
+
+
+const togglenavbar=()=>{
+    nav_header.classList.toggle("active")
+
+}
+
+const listitam=document.querySelectorAll(".navbar-link");
+
+listitam.forEach((el)=>{
+
+    el.onclick=()=>{
+        nav_header.classList.remove("active")
+    }
+})
+
+
+
+
+
+
+
+
+
+
+let navbar=document.querySelector(".header");
 
 window.onscroll=()=>{
     mayfunction();
