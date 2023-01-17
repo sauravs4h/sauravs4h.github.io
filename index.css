@@ -4,6 +4,9 @@ body{
     height: 3000px;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 
 #navbar{
     display: flex;
