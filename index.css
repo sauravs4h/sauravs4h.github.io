@@ -84,9 +84,14 @@ responsive funtionlity
 
 @media (max-width:980px){
 
+    body{
+        overflow-x: hidden;
+    }
+
     .mobile-navbar-btn{
         display: block;
         z-index: 999;
+
         /* border: 2px solid black; */
         
     }
