@@ -138,17 +138,7 @@ responsive funtionlity
     display: none;
 }
 
-/* #navbar{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid red;
-    height: 70px;
-    overflow: hidden;
-    background-color: white;
-    position:-ms-page;
 
-   
-} */
 .sticky{
     position: fixed;
     top: 0;
@@ -157,60 +147,13 @@ responsive funtionlity
 }
 
 
- /* #navright>{
-    display: flex;
-   
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 50px;
-    width:40%;
-    font-size: large;
-   
-}  */
-
-/* #navright{
-    border: 1px solid black;
-} */
-
-
-
-
-/* #navright>a{
-    text-decoration: none;
-    color: black;
-} */
-
-/* #navimg{
-   
-  height: 100%;
-  
-} */
-/* #resume{
-    display: flex;
-    width: auto;
-    margin: 10px 0px 10px 0px;
-    
-    text-align: center;
-    color: rgb(63,93,153);
- }
-
- .downloadicon{
-   
-    padding-top: 24%;
- } */
-
- #homehero{
-   /* margin-top: 70px; */
-  
-}
 
 #homeheroimg{
     width: 100%;
 }
 
 #aboutme{
-    /* border: 1px solid red; */
-    /* font-size: larger; */
+    
     width: 60%;
     text-align: center;
     display: block;
@@ -227,12 +170,11 @@ responsive funtionlity
     display: flex;
     justify-content: space-around;
     margin-top: 8%;
-    /* border: 1px solid red; */
-    /* gap: 5px; */
+    
 }
 #know-skill>div{
     width: 40%;
-    /* border: 1px solid green; */
+  
 }
 
 .hsmall{
@@ -277,20 +219,7 @@ responsive funtionlity
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
 }
 
- /* .skilldiv>div{
 
-    
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    
-     width: 100px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
-  
-     
- }  */
 
 
  #skill{
@@ -350,11 +279,7 @@ responsive funtionlity
  }
 
  .p-button{
-    /* width: auto;
-    height: 40px;
     
-    background-color: aqua;
-    font-size: medium; */
 
     height: 50px;
     width: auto;
@@ -367,9 +292,7 @@ responsive funtionlity
  }
 
 
- .graph-before-activity-overview{
-    
- }
+
 
  .position-relative{
     margin: auto;
@@ -391,9 +314,7 @@ responsive funtionlity
     /* border: 1px solid blue; */
     width: 40%;
  }
- #stats>:nth-child(1){
-    /* border: 1px solid green; */
- }
+
  #stats>:nth-child(1)>img{
 
     width: 119%;
@@ -408,8 +329,7 @@ responsive funtionlity
 
  #stats>:nth-child(2)>img{
     width: 100%;
-    /* height: 40%; */
-    /* border: 1px solid green; */
+    
  }
 
  
