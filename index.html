@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
     <link rel="stylesheet" href="index.css">
     <title>Saurav Sharma</title>
   </head>
@@ -138,11 +141,54 @@
             <button class="p-button p-component p-button-outlined p-button-danger project-deployed-link" type="button" >Deployed</button>
           </div>
         </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="github">
+      <div >
+        <h2>Github Stats</h2>
+        <div id="stats">
+          <div>
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sauravs4h&lans-count=4" alt="">
+          </div>
+          <div>
+            <img src="https://github-readme-stats.vercel.app/api?username=sauravs4h&show_icons=true&locale=en" alt="">
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=sauravs4h&" alt="">
+          </div>
+
+        </div>
+        <!-- <div id="hello">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sauravs4h&lans-count=4" alt="">
+          <img src="https://github-readme-stats.vercel.app/api?username=sauravs4h&show_icons=true&locale=en" alt="">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=sauravs4h&" alt="">
+        </div> -->
+        
+
+      </div>
+
+      <div>
+        <h2>github-calendar</h2>
+        <div class="calendar">
+          <!-- Loading stuff -->
+          Loading the data just for you.
+        </div>
+
+      </div>
+
+    
 
     </div>
+    
         
+
+    
+  
         
-      
+    
       
 
     
@@ -151,3 +197,24 @@
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="/index.js"></script>
+
+
+
+<!-- Include the library. -->
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+
+
+
+<script>
+    
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "sauravs4h", { responsive: true,tooltips:true,global_stats: false });
+
+
+    
+    
+</script>
