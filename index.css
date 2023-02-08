@@ -101,7 +101,7 @@ responsive funtionlity
         /* display: none; */
         width: 100%;
         /* height: 100vh; */
-        height: auto;
+        height: 100svh;
         background: rgb(53,253,211);
         position: fixed;
         top: 0;
@@ -377,7 +377,7 @@ responsive funtionlity
 
 /* FOR MOBILE */
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:830px) {
     #know-skill{
         display: flex;
         flex-direction: column;
@@ -424,6 +424,7 @@ responsive funtionlity
 
     #aboutme>p{
         padding: 20px;
+        margin-top: -5%;
     }
     
 }
