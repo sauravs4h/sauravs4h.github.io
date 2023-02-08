@@ -429,9 +429,18 @@ responsive funtionlity
     
 }
 
-/* FOR TABLET */
 
-@media screen and (min-width:320px) and (max-width:600px) {
 
+@media screen and  (max-width:500px) {
+
+    #cardcontainer{
+        display: grid;
+        grid-template-columns: repeat(2, 130px);
+        justify-content: space-around;
+        gap: 30px;
+        
+        
+    
+    }
     
 }
