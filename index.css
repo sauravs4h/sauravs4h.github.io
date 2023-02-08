@@ -180,6 +180,7 @@ responsive funtionlity
 }
 #know-skill>div{
     width: 40%;
+    
   
 }
 
@@ -200,6 +201,12 @@ responsive funtionlity
     font-weight: 530;
     border: 0px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
+    
+}
+.makebuttonend{
+    text-align: end;
 }
 
 #cardcontainer{
@@ -409,7 +416,7 @@ responsive funtionlity
     }
 
     #skill{
-        margin-top: 15%;
+        
     }
 
     #aboutme{
@@ -429,6 +436,13 @@ responsive funtionlity
 
     .headerlogo{
         width: 40%;
+    }
+
+    #knowme{
+        margin-top: 15%;
+    }
+    .makebuttonend{
+        text-align: center;
     }
     
 }
