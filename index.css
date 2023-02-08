@@ -409,7 +409,7 @@ responsive funtionlity
     }
 
     #skill{
-        margin-top: 8%;
+        margin-top: 10%;
     }
 
     #aboutme{
@@ -426,12 +426,16 @@ responsive funtionlity
         padding: 20px;
         margin-top: -5%;
     }
+
+    .headerlogo{
+        width: 40%;
+    }
     
 }
 
 
 
-@media screen and  (max-width:500px) {
+@media screen and  (max-width:415px) {
 
     #cardcontainer{
         display: grid;
@@ -441,6 +445,9 @@ responsive funtionlity
         
         
     
+    }
+    .headerlogo{
+        width: 50%;
     }
     
 }
