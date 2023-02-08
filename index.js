@@ -57,3 +57,12 @@ const mayfunction=()=>{
 }
 
 
+//////////////  Show resume ////////////////
+
+
+let resume=document.getElementById("resume");
+resume.addEventListener("click",showresume);
+
+function showresume(){
+    window.location.href="https://drive.google.com/drive/folders/1NdjddpneGAKrKilHEGGTXK0qE49CzqFG?usp=sharing"
+}
