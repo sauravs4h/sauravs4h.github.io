@@ -449,7 +449,7 @@ responsive funtionlity
 
 
 
-@media screen and  (max-width:390px) {
+@media screen and  (max-width:375px) {
 
     #cardcontainer{
         display: grid;
