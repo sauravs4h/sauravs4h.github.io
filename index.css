@@ -504,7 +504,13 @@ responsive funtionlity
         
      }
 
-     
+     .btn-div{
+        margin-top: 6%;
+        width: 50%;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+     }
 
 }
 
