@@ -158,7 +158,7 @@ responsive funtionlity
     width: 100%;
 }
 
-#aboutme{
+#about{
     
     width: 60%;
     text-align: center;
@@ -168,7 +168,7 @@ responsive funtionlity
     margin-top: 8%;
     
 }
-#aboutme>p{
+#about>p{
     font-size: larger;
 }
 
@@ -192,7 +192,7 @@ responsive funtionlity
     font-size: large;
     line-height: 1.5em;
 }
-#knowmecontect{
+#knowmecontact{
     height: 50px;
     width: 150px;
     background-color: rgb(53,253,211);
@@ -235,7 +235,7 @@ responsive funtionlity
 
 
 
- #skill{
+ #skills{
     margin-right: 35px;
  }
 
@@ -243,7 +243,7 @@ responsive funtionlity
     text-align: center;
     margin-top: 8%;
  }
- #project>div{
+ #projects>div{
     display: flex;
     gap: 10px;
    padding: 10px;
@@ -367,12 +367,12 @@ responsive funtionlity
 
 
 
- .contectheading{
+ .contactheading{
 
     text-align: center;
     margin-top: 8%;
  }
- #contect{
+ #contact{
 
     text-align: center;
     
@@ -429,7 +429,7 @@ responsive funtionlity
         
     } */
 
-    #aboutme{
+    #about{
     
         width: 100%;
         text-align: center;
@@ -460,14 +460,14 @@ responsive funtionlity
   
     }
 
-    #project>div{
+    #projects>div{
         display: flex;
         flex-direction: column;
         align-items: center;
        
         
     }
-    #project>div>div{
+    #projects>div>div{
         width: 95%;
         
         /* padding: 10px;
