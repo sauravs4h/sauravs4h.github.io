@@ -66,3 +66,20 @@ resume.addEventListener("click",showresume);
 function showresume(){
     window.location.href="https://drive.google.com/drive/folders/1NdjddpneGAKrKilHEGGTXK0qE49CzqFG?usp=sharing"
 }
+
+
+let contectgithub= document.getElementById("contectgithub");
+
+contectgithub.addEventListener("click",()=>{
+    
+    window.location.href="https://github.com/sauravs4h";
+    target="_blank";
+});
+
+let contectlinkedin= document.getElementById("contectlinkedin");
+
+contectlinkedin.addEventListener("click",()=>{
+
+    window.location.href="https://www.linkedin.com/in/saurav-sharma-931262178/";
+})
+
