@@ -49,7 +49,7 @@ console.log(sticky)
 const mayfunction=()=>{
     if(window.pageYOffset >= sticky){
         navbar.classList.add("sticky");
-        document.getElementById("homehero").style.marginTop="70 px"
+        document.getElementById("homehero").style.marginTop="70 px";
 
     }else if(window.pageYOffset < sticky){
         navbar.classList.remove("sticky")
@@ -83,3 +83,33 @@ contectlinkedin.addEventListener("click",()=>{
     window.open(URL, '_blank').location.href="https://www.linkedin.com/in/saurav-sharma-931262178/";
 })
 
+
+
+
+//////////////////
+
+var modal = document.getElementById("myModal");
+
+
+var modalImg = document.getElementById("img01");
+//var captionText = document.getElementById("caption");
+
+let img=document.querySelectorAll(".showimage");
+
+img.forEach((el)=>{
+
+    el.onclick=()=>{
+        //console.log(el.src)
+        modal.style.display = "block";
+        modalImg.src = el.src;
+        // captionText.innerHTML = this.alt;
+    }
+})
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+  }
