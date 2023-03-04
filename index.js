@@ -64,7 +64,7 @@ let resume=document.getElementById("resume");
 resume.addEventListener("click",showresume);
 
 function showresume(){
-    window.location.href="https://drive.google.com/drive/folders/1NdjddpneGAKrKilHEGGTXK0qE49CzqFG?usp=sharing"
+    window.open(URL, '_blank').location.href="https://drive.google.com/file/d/1xBDgi03qOPC1fxeHcpOCkA6Xlpcna3yv/view?usp=sharing"
 }
 
 
@@ -72,7 +72,7 @@ let contectgithub= document.getElementById("contectgithub");
 
 contectgithub.addEventListener("click",()=>{
     
-    window.location.href="https://github.com/sauravs4h";
+    window.open(URL, '_blank').location.href="https://github.com/sauravs4h";
     target="_blank";
 });
 
@@ -80,6 +80,6 @@ let contectlinkedin= document.getElementById("contectlinkedin");
 
 contectlinkedin.addEventListener("click",()=>{
 
-    window.location.href="https://www.linkedin.com/in/saurav-sharma-931262178/";
+    window.open(URL, '_blank').location.href="https://www.linkedin.com/in/saurav-sharma-931262178/";
 })
 
