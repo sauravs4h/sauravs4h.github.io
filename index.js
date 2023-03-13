@@ -1,6 +1,3 @@
-//console.log("hello saurav")
-
-
 
 const mobile_nav=document.querySelector(".mobile-navbar-btn")
 const nav_header=document.querySelector(".header");
@@ -25,15 +22,6 @@ listitam.forEach((el)=>{
         nav_header.classList.remove("active")
     }
 })
-
-
-
-
-
-
-
-
-
 
 let navbar=document.querySelector(".header");
 
@@ -116,24 +104,4 @@ span.onclick = function() {
 
 
 
-  /////////////// project /////////////////
-
-
-//   // yoox github
-//   let yooxgithub=document.getElementById("yooxgithub");
-//   yooxgithub.addEventListener("click",yooxgithub);
-
-// function yooxgithub(){
-//     console.log("hello")
-//     window.open(URL, '_blank').location.href="https://github.com/vishal-git9/unbecoming-sofa-7946"
-// }
-
-
-// //yoox deployment
-// let yooxdeployment=document.getElementById("yooxdeployment");
-//     yooxdeployment.addEventListener("click",yooxdeployment);
-
-// function yooxdeployment(){
-//     console.log("hjkh")
-//     window.open(URL, '_blank').location.href="https://beamish-griffin-0ee078.netlify.app/"
-// }
+ 
