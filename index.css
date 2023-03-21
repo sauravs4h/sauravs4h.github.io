@@ -154,7 +154,7 @@ responsive funtionlity
 
 
 
-#homeheroimg{
+#home-img{
     width: 100%;
 }
 
@@ -540,7 +540,7 @@ responsive funtionlity
         width: 40%;
     }
 
-    #knowme{
+    #user-detail-intro{
         margin-top: 15%;
     }
     .makebuttonend{
