@@ -486,6 +486,41 @@ responsive funtionlity
 
 /* FOR MOBILE */
 
+@media screen and (max-width:1140px){
+    #know-skill{
+        display: flex;
+        flex-direction: column;
+    }
+    #know-skill>div{
+        /* border: 1px solid red; */
+        width: 100%;
+        text-align: center;
+    }
+
+    #cardcontainer{
+        display: grid;
+        grid-template-columns: repeat(4, 130px);
+        justify-content: space-around;
+        gap: 30px;
+    }
+    .bigp{
+        padding: 20px;
+        /* margin-top: -4%; */
+    }
+    #user-detail-intro{
+        margin-top: 10%;
+    }
+    .makebuttonend{
+        text-align: center;
+        /* margin-top: -5%; */
+    }
+
+}
+
+
+
+
+
 @media screen and (max-width:830px) {
     #know-skill{
         display: flex;
@@ -536,6 +571,7 @@ responsive funtionlity
         margin-top: -5%;
     }
 
+    /* navebar gif */
     .headerlogo{
         width: 40%;
     }
