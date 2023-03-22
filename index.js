@@ -37,7 +37,7 @@ console.log(sticky)
 const mayfunction=()=>{
     if(window.pageYOffset >= sticky){
         navbar.classList.add("sticky");
-        document.getElementById("homehero").style.marginTop="70 px";
+       //document.getElementById("homehero").style.marginTop="70 px";
 
     }else if(window.pageYOffset < sticky){
         navbar.classList.remove("sticky")
@@ -48,15 +48,16 @@ const mayfunction=()=>{
 //////////////  Show resume ////////////////
 
 
-let resume=document.getElementById("resume");
+let resume=document.getElementById("resume-link-1");
 resume.addEventListener("click",showresume);
+
 
 function showresume(){
     window.open(URL, '_blank').location.href="https://drive.google.com/file/d/1xBDgi03qOPC1fxeHcpOCkA6Xlpcna3yv/view?usp=sharing"
 }
 
 
-let contectgithub= document.getElementById("contectgithub");
+let contectgithub= document.getElementById("contact-github");
 
 contectgithub.addEventListener("click",()=>{
     
@@ -64,7 +65,7 @@ contectgithub.addEventListener("click",()=>{
     target="_blank";
 });
 
-let contectlinkedin= document.getElementById("contectlinkedin");
+let contectlinkedin= document.getElementById("contact-linkedin");
 
 contectlinkedin.addEventListener("click",()=>{
 
