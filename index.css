@@ -192,18 +192,7 @@ responsive funtionlity
     font-size: large;
     line-height: 1.5em;
 }
-/* #knowmecontact{
-    height: 50px;
-    width: 150px;
-    background-color: rgb(53,253,211);
-    color: rgb(63,93,153);
-    font-size:large;
-    font-weight: 530;
-    border: 0px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-} */
-
-#resume-link-2{
+.knowmecontact{
     height: 50px;
     width: 150px;
     background-color: rgb(53,253,211);
@@ -213,6 +202,8 @@ responsive funtionlity
     border: 0px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+
 .makebuttonend{
     text-align: end;
 }
