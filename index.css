@@ -78,6 +78,7 @@ html{
 }
 
 
+/* navbar resume button */
 
 .resumebutton{
     border: 0px;
@@ -96,6 +97,14 @@ responsive funtionlity
 
     body{
         overflow-x: hidden;
+    }
+
+    /* navbar resume button */
+    .resumebutton{
+        border: 0px;
+        background-color: rgb(53,253,211);
+        font-size: large;
+        font-weight: 400;
     }
 
     .mobile-navbar-btn{
@@ -184,7 +193,7 @@ responsive funtionlity
 #know-skill{
     display: flex;
     justify-content: space-around;
-    margin-top: 8%;
+    margin-top: 5%;
     
 }
 #know-skill>div{
