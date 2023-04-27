@@ -77,6 +77,15 @@ html{
     display: none;
 }
 
+
+
+.resumebutton{
+    border: 0px;
+    background-color: white;
+    font-size: large;
+    font-weight: 400;
+}
+
 /* =======================================================================
 responsive funtionlity
 ======================================================================= */
