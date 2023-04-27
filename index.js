@@ -51,7 +51,7 @@ const mayfunction=()=>{
 let resume=document.getElementById("resume-button-1");
 resume.addEventListener("click",showresume);
 
-let resume2=document.getElementById("resume-link-2");
+let resume2=document.getElementById("resume-button-2");
 resume2.addEventListener("click",showresume);
 
 
