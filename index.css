@@ -176,6 +176,10 @@ responsive funtionlity
     width: 100%;
 }
 
+#user-detail-name{
+    position:static;
+}
+
 #about{
     
     width: 60%;
