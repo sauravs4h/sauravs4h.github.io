@@ -31,6 +31,10 @@ html{
     background-color: white;
 }
 
+button:hover{
+    transform: scale(1.2);
+}
+
 .navbar-list{
     display: flex;
     gap: 40px;
@@ -230,6 +234,10 @@ responsive funtionlity
     text-align: end;
 }
 
+.skills-card:hover{
+    transform: scale(1.2);
+}
+
 #cardcontainer{
     display: grid;
     grid-template-columns: repeat(4, 130px);
@@ -279,8 +287,13 @@ responsive funtionlity
  .project-image{
     width: 40%;
     /* border: 1px solid red; */
+    
     margin-left: 3%;
  }
+ .project-image:hover{
+    transform: scale(1.2);
+ }
+ 
  .project-image>img{
     width: 100%;
  }

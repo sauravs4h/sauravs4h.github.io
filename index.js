@@ -32,7 +32,7 @@ window.onscroll=()=>{
 // var sticky = navbar.offsetTop;
 var sticky = 70;
 
-console.log(sticky)
+//console.log(sticky)
 
 const mayfunction=()=>{
     if(window.pageYOffset >= sticky){
