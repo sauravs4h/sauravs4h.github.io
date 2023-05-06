@@ -177,7 +177,7 @@ responsive funtionlity
 }
 
 #user-detail-name{
-    position:static;
+   display: none;
 }
 
 #about{
