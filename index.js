@@ -52,7 +52,7 @@ let resume=document.getElementById("resume-button-1");
 resume.addEventListener("click",showresume);
 
 let resume2=document.getElementById("resume-button-2");
-resume2.addEventListener("click",showresume);
+resume2.addEventListener("click",showresume2);
 
 
 function showresume(){
@@ -61,6 +61,11 @@ function showresume(){
     window.location.href="https://drive.google.com/file/d/1xBDgi03qOPC1fxeHcpOCkA6Xlpcna3yv/view?usp=sharing"
 }
 
+function showresume2(){
+    // window.open(URL, '_blank').location.href="https://drive.google.com/file/d/1xBDgi03qOPC1fxeHcpOCkA6Xlpcna3yv/view?usp=sharing"
+
+    window.location.href="https://drive.google.com/file/d/1xBDgi03qOPC1fxeHcpOCkA6Xlpcna3yv/view?usp=sharing"
+}
 
 let contectgithub= document.getElementById("contact-github");
 
