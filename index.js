@@ -56,7 +56,9 @@ resume2.addEventListener("click",showresume);
 
 
 function showresume(){
-    window.open(URL, '_blank').location.href="https://drive.google.com/file/d/1xBDgi03qOPC1fxeHcpOCkA6Xlpcna3yv/view?usp=sharing"
+    // window.open(URL, '_blank').location.href="https://drive.google.com/file/d/1xBDgi03qOPC1fxeHcpOCkA6Xlpcna3yv/view?usp=sharing"
+
+    window.location.href="https://drive.google.com/file/d/1xBDgi03qOPC1fxeHcpOCkA6Xlpcna3yv/view?usp=sharing"
 }
 
 
