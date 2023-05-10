@@ -46,22 +46,32 @@
       <img id="home-img" class="home-img" src="./photos/poster.png" alt="">
       <p id="user-detail-name">saurav sharma</p>
 
+      <!-- <button href="./Saurav_Sharma_Resume.pdf" download="Saurav_Sharma_Resume.pdf" id="resume-button-2"
+                    target="_blank">Resume</button> -->
+
+        <button id="resume-button-2">
+        <a id="resume-link-2"
+         href="downloads/Saurav_Sharma_Resume.pdf" 
+         download="Saurav_Sharma_Resume"
+        onclick="window.open('https://drive.google.com/file/d/1xBDgi03qOPC1fxeHcpOCkA6Xlpcna3yv/view?usp=sharing')">Resume</a>
+      </button> 
+    
+
     </div>
     <div id="about" class="about section">
       <h1>About Me</h1>
       <!-- <P>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</P>
-      -->
-      <p id="user-detail-intro" >A passionate and adaptable full stack web developer, skilled in JavaScript, Node JS, Express, MongoDB, with proficiency in problem-solving. A dependable and responsible team player with an eye to detail. Looking for a position to enhance once skills while significantly contributing to the company's growth. Check out some of my work in the Projects section.
-
-        Feel free to Connect or Follow me on my <a href="https://www.linkedin.com/in/saurav-sharma-931262178/">Linkedin</a>  where I post useful content related to Web Development and Programming
-         
-         I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
-       </p>
-
-
-
       
-      <a href="downloads/Saurav_Sharma_Resume.pdf" download><button class="knowmecontact" id="resume-button-2" onclick="window.open('https://drive.google.com/file/d/1xBDgi03qOPC1fxeHcpOCkA6Xlpcna3yv/view?usp=sharing')"> Resume </button></a>
+      -->
+
+      <p id="user-detail-intro" class="mydatatext">An experienced full stack web developer with a broad
+        range of technical skills and expertise in both front-end and back-end development. They are
+        proficient in programming languages such as JavaScript, HTML, CSS, and SQL, as well as various
+        web development frameworks, libraries, and tools.Also have a deep understanding of how different
+        technologies work together and are skilled in integrating and deploying software applications
+        across multiple platforms.</p>
+      <!-- <button class="knowmecontact">Resume</button> -->
+      <!-- <a href="downloads/Saurav_Sharma_Resume.pdf" download><button class="knowmecontact" id="resume-button-2" onclick="window.open('https://drive.google.com/file/d/1xBDgi03qOPC1fxeHcpOCkA6Xlpcna3yv/view?usp=sharing')"> Resume </button></a> -->
 
       <!-- <span id="resume-button-2">
         <a id="resume-link-2"
@@ -76,6 +86,8 @@
          download="Saurav_Sharma_Resume"
         onclick=" parent.location='https://drive.google.com/file/d/1xBDgi03qOPC1fxeHcpOCkA6Xlpcna3yv/view?usp=sharing' ">Resume</a>
       </button> -->
+
+      
       
 
     </div>
@@ -125,20 +137,43 @@
 
 
 
-      <!-- <div id="user-detail" >
+      <div id="user-detail" >
         <h1 class="hsmall">Get to know me!</h1>
-        <p id="user-detail-intro" >A passionate and adaptable full stack web developer, skilled in JavaScript, Node JS, Express, MongoDB, with proficiency in problem-solving. A dependable and responsible team player with an eye to detail. Looking for a position to enhance once skills while significantly contributing to the company's growth. Check out some of my work in the Projects section.
+        
+        <!-- <p id="user-detail-intro" >A passionate and adaptable full stack web developer, skilled in JavaScript, Node JS, Express, MongoDB, with proficiency in problem-solving. A dependable and responsible team player with an eye to detail. Looking for a position to enhance once skills while significantly contributing to the company's growth. Check out some of my work in the Projects section.
 
-         Feel free to Connect or Follow me on my <a href="https://www.linkedin.com/in/saurav-sharma-931262178/">Linkedin</a>  where I post useful content related to Web Development and Programming
+         Feel free to Connect or Follow me on my  where I post useful content related to Web Development and Programming
           
           I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
-        </p>
+        </p> -->
         <div class="makebuttonend">
-          <a href="#contact"><button class="knowmecontact">CONTECT</button></a>
-         
+          <!-- <a href="#contact"><button class="knowmecontact">CONTECT</button></a> -->
+          <button href="#contact" class="knowmecontact" > Contects </button> 
         </div>
         
-      </div> -->
+      </div>
+
+      <!-- <section class="nav-link about section" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column right">
+                    <div id="user-detail-name" class="text">I'm Vishal Padaswan and I'm a <span class="typing-2"></span>
+                    </div>
+                    <p id="user-detail-intro" class="mydatatext">An experienced full stack web developer with a broad
+                        range of technical skills and expertise in both front-end and back-end development. They are
+                        proficient in programming languages such as JavaScript, HTML, CSS, and SQL, as well as various
+                        web development frameworks, libraries, and tools.Also have a deep understanding of how different
+                        technologies work together and are skilled in integrating and deploying software applications
+                        across multiple platforms.</p>
+                </div>
+                <div class="column left">
+                    <img class="home-img" src="./images/res-modified.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section> -->
 
     </div>
 
@@ -307,4 +342,4 @@
 
     
     
-</script>
+</script> 
