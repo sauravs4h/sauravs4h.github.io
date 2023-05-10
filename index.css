@@ -542,6 +542,9 @@ responsive funtionlity
         padding: 20px;
         /* margin-top: -4%; */
     }
+    #tools{
+        margin-top: 6%;
+    }
     #user-detail{
         margin-top: 10%;
     }
