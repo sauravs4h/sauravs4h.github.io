@@ -88,6 +88,13 @@ contectlinkedin.addEventListener("click",()=>{
     window.open(URL, '_blank').location.href="https://www.linkedin.com/in/saurav-sharma-931262178/";
 })
 
+let contactemail=document.getElementById("contact-email");
+
+contactemail.addEventListener("click",()=>{
+
+    window.open(URL, '_blank').location.href="mailto: sauravs4h@gmail.com";
+})
+
 
 
 
