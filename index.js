@@ -54,10 +54,10 @@ resume.addEventListener("click",showresume);
 // let resume2=document.getElementById("resume-button-2");
 // resume2.addEventListener("click",showresume2);
 
-let res2 = document.getElementById("resume-button-2")
-    res2.addEventListener("click", () => {
-        window.open('https://drive.google.com/file/d/1xBDgi03qOPC1fxeHcpOCkA6Xlpcna3yv/view?usp=sharing', '_blank');
-    })
+// let res2 = document.getElementById("resume-button-2")
+//     res2.addEventListener("click", () => {
+//         window.open('https://drive.google.com/file/d/1xBDgi03qOPC1fxeHcpOCkA6Xlpcna3yv/view?usp=sharing', '_blank');
+//     })
 
 
 
