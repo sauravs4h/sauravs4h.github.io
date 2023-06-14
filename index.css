@@ -150,6 +150,10 @@ responsive funtionlity
         flex-direction: column;
     }
 
+    #user-detail-intro{
+        padding: 30px; 
+    }
+
 }
 
 .active .navbar{
@@ -197,12 +201,15 @@ responsive funtionlity
 #about>p{
     font-size: larger;
     text-align: justify;
+   
 }
 
 #know-skill{
     display: flex;
-    justify-content: space-around;
+    gap: 90px;
     margin-top: 5%;
+    margin-left: 5%;
+   
     
 }
 #know-skill>div{
